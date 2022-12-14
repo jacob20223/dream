@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: "Open Sans",sans-serif;
+  }
+
+.container{
+    width: 80%;
+    overflow:hidden;
+    margin: auto;   
+}
+
+
+#main-header{
+    padding-top: 10px;
+    height: 90px;
+    margin: top 30px;
+    position: relative;
+    background: #2f3640;
+    color: white;
+
+}
+
+.container3{
+    text-align: center;
+   display: block;
+   
+ }
+
+
+#main-header h1{
+    display: contents;
+    margin: top 30px;
+    
+}
+
+#navbar{
+    background-color: blue;
+   color: white;
+    padding: 0 10px;
+    margin: auto;
+
+}
+
+.navigation-menu{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+  }
+  
+  .navigation-menu a{
+    margin-left: 10px;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: .3s linear;
+  }
+  
+  .navigation-menu a:hover{
+    background: #fff;
+    color: #2f3640;
+    transform: scale(1.4);
+  }
+  
+  .navigation-menu i{
+    margin-right: 8px;
+    font-size: 16px;
+  }
+
+  .home{
+    color: #ff6b6b;
+  }
+  
+  .about{
+    color: #0abde3;
+  }
+  
+  .project{
+    color: #feca57;
+  }
+  
+  .client{
+    color: #5f27cd;
+  }
+  
+  .contact{
+    color: #1dd1a1;
+  }
+  
+  .feedback{
+    color: crimson;
+  }
+
+  .logo{
+    float: left;
+    padding-top: 20px;
+    padding-right: 40px;
+  }
+  
+  .logo img{
+    height: 80px;
+    width: 150px;
+  }
+
+
+  @media screen and (max-width:700px) {
+    .menu-toggle-btn{
+      display: block;
+    }
+  
+    .navigation-menu{
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+      background: #172b4d;
+      top: 90px;
+      right: 0;
+      display: block;
+      padding: 20px 40px;
+      box-sizing: border-box;
+    }
+  
+    .navigation-menu::before{
+      content: "";
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #172b4d;
+      position: absolute;
+      top: -10px;
+      right: 10px;
+    }
+  
+    .navigation-menu a{
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .navigation-menu.active{
+      display: block;
+    }
+  }
+
+#showcase{
+    height: 500px;
+    background-image: url(https://thumbs.dreamstime.com/b/house-under-construction-blueprints-building-project-53360048.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 0%;
+    margin: 0%;
+}
+
+#showcase h1{
+   font-size: 40px;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+#main{
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px 50px;
+    
+}
+
+#sidebar{margin-bottom: 100px;
+    min-width: 300px;
+    float: right;
+    width: 30% ;
+    background-color:whitesmoke ;
+    color: black;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid bisque;
+    padding: 10px;
+
+}
+
+#sidebar h1{
+    text-align:center;
+    font-size: x-large;
+    margin: 10px;;
+    display: block;
+}
+
+#sidebar p{
+    text-align: center;
+}
+.service{
+	background: white;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: coral;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f9004d;
+
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+.contact-me{
+	width: 100%;
+	height: 290px;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.contact-me .button-two{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.contact-me .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+#main-footer{
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+}
